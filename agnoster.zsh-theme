@@ -116,7 +116,7 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment blue $CURRENT_FG ' %CD% '
+  prompt_segment blue $CURRENT_FG ' %2~ '
 }
 
 # Status:
